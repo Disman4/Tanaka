@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+
+<body>
+  <nav class="navbar bg-dark navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">T.M</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">E&W</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:tanaka.mawoyo@yahoo.com"">Contact</a>
+          </li>
+          <li class="nav-item">
+            <button id="btnnav" class="btn btn-outline-dark "><a href="./images/assets/Tanaka Mawoyo.pdf" target="_blank">Resume</a></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero -->
+  <section id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <h1 class="typewriter">Hi, I'm Tanaka, Software Engineer.</h1>
+          <p class="lead">iOS Developer / Frontend Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- about me -->
+   <section id="about">
+    <div class="p-5 text-center bg-body-tertiary">
+      <div class="container py-5">
+        <h2 class="text-body-emphasis">About Me</h2>
+        <img class="my_picture" src="./images/IOS/tanaka.png" height="300">
+        <p id="who" class="col-lg-8 mx-auto lead">
+          I am an <span>enthusiastic</span>, goal driven and highly motivated technologist from
+          Zimbabwe, who holds a BSc. Computer Science. I am currently pursuing a MSc. in Computer Science in Germany. I
+          enjoy mobile development in Swift and Frontend Web Development. I believe having a good time whilst doing the things you live and
+          living life to the fullest.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- resume -->
+  <section id="resume">
+    <div class="container">
+      <div class="cardholder">
+        <div class="row justify-content-center">
+          <h2 class="text-body-emphasis text-center">Education and Work Experience</h2>
+          <div class=" col-lg-5">
+            <div class="card" style="width: 100%;">
+              <img src="./images/assets/mortarboard.svg" class="card-img" alt="..." height="70">
+              <div class="card-body">
+                <h5 class="card-title">Education</h5>
+                <ul class="cardlist">
+                  <li>Universty of Bonn (MSc. Computer Science, present)</li>
+                  <li>Universty of Debrecen (BSc. Computer Science, 2016-2020)</li>
+                  <li>Udemy (iOS & Swift - The Complete iOS App Development Bootcamp, 2023)</li>
+                  <li>A levels (Gateway High School, 2014-2015)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card" style="width: 100%;">
+              <img src="./images/assets/buildings.svg" class="card-img" alt="..." height="70">
+              <div class="card-body">
+                <h5 class="card-title">Work Experience</h5>
+                <ul class="cardlist">
+                  <li>IT Support ( Werk Student)- Simon Kucher & Partners, Bonn</li>
+                  <li>Student Digital Engineer - Universty of Debrecen, Hungary</li>
+                  <li>Music Teacher Assistant- Gateway Primary School, Zimbabwe</li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- projects -->
+  <section id="projects">
+    <div class="projects">
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom text-center">Projects</h2>
+        <h3 class="list-unstyled">iOS Projects</h3>
+        <div class="description">
+          <p class="lead">As an iOS developer, I Have built a few personal Projects to showcase some skills, learn new
+            technologies and let my creative side through. Whilst Building said projects, I have aquired verious skills which include but not limited to
+            UIKit, FireBase, Realm API, Core Data, CocoaPods, CoreML, Networking, REST API...
+          </p>
+        </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+          <div class="feature col">
+            <div>
+              <img src="./images/IOS/FlashChat2.png" class="mx-auto d-block
+" alt="FlashChat App Image" height="300">
+            </div>
+            <h3 class="fs-2 text-body-emphasis text-center">FlashChat</h3>
+            <p class="text-center">A live messaging application similar to WhatsApp for iOS using Swift and Google Firebase for backend support.</p>
+            <a href="https://github.com/Disman4/FlashChat" class="icon-link">
+              View Code
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div>
+              <img src="./images/IOS/FlightStatus.png" class="mx-auto d-block" alt="FlightInfo App Image" height="300">
+            </div>
+            <h3 class="fs-2 text-body-emphasis text-center">Flight Info</h3>
+            <p class="text-center">An iOS App that uses networking to fetch flight details through API, decode JSON data and display on storyboard.</p>
+            <a href="https://github.com/Disman4/FlightInfo" class="icon-link">
+              View Code
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div>
+              <img src="./images/IOS/NBA.png" class="mx-auto d-block" alt="NBA Teams App Image" height="300">
+            </div>
+            <h3 class="fs-2 text-body-emphasis text-center">NBA Teams</h3>
+            <p class="text-center">NBA Teams are sorted  in a tableView. 
+              User will be redirected to the team's website when time is selected.</p>
+            <a href="https://github.com/Disman4/NBA" class="icon-link">
+              View Code
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div>
+              <img src="./images/IOS/Todo.png" class="mx-auto d-block" alt="ToDo LIST APP" height="300">
+            </div>
+            <h3 class="fs-2 text-body-emphasis text-center">ToDo</h3>
+            <p class="text-center">iOS app that persists data and this was achieved through various choices of implemention(Realm). 
+            </p>
+            <a href="https://github.com/Disman4/ToDo" class="icon-link">
+              View Code
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container px-4 py-5" id="featured-3">
+        <h3 class="plist-unstyled">Web Development Projects</h3>
+        <div class="description">
+          <p class="lead">Mainly focusing on Frontend Development, I have aquired knowledge in
+            the following HTML, CSS, JavaScript. Currently I am getting quite
+            aquitainted with React. Although I my main focus is Front end Development. I have basic skills in BackEnd
+            Development using NodeJS and in addition to that I also have MySQL database knowledge.
+          </p>
+        </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./images/assets/tindog.png" class="card-img-top" alt="..." height="250">
+            </div>
+            <h3 class="fs-2 text-body-emphasis text-center">TinDog</h3>
+            <p>This is a reponsive frontend project using the Bootstrap Framework.</p>
+            <a href="https://github.com/Disman4/TinDog" class="icon-link">
+              View Code
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./images/assets/DICEE.png" class="card-img-top" alt="..." height="250">
+            </div>
+            <h3 class="fs-2 text-body-emphasis text-center">Dicce</h3>
+            <p>This project Demonstrates DOM manipulation using JavaScript.</p>
+            <a href="https://github.com/Disman4/Dicee" class="icon-link">
+              View Code
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./images/assets/pricingTable.png" class="card-img-top" alt="..." height="250">
+            </div>
+            <h3 class="fs-2 text-body-emphasis text-center">Pricing Table</h3>
+            <p>Responsive Pricing table using Flexbox.</p>
+            <a href="https://github.com/Disman4/Pricing-Table" class="icon-link">
+              View Code
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+ 
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="https://www.linkedin.com/in/tanaka-mawoyo-20536a172/"
+              class="nav-link px-2 text-body-"><img src="./images/assets/linkedin.svg"></a></li>
+          <li class="nav-item"><a href="https://github.com/Disman4" class="nav-link px-2 text-body-secondary"><img
+                src="./images/assets/github.svg"></a></li>
+          <li class="nav-item"><a href="https://www.instagram.com/tan_aka4/"
+              class="nav-link px-2 text-body-secondary"><img src="./images/assets/instagram.svg"></a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 Tanaka Josiah Mawoyo</p>
+      </footer>
+    </div>
+  </section>
+
+</body>
+
+</html>

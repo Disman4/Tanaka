@@ -1,0 +1,84 @@
+body {
+  font-family: "Anonymous Pro", monospace;
+}
+
+#hero {
+  background-image: url(./images/assets/hero_image.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.typewriter {
+  width: 34ch;
+  animation: typing 5s steps(50), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Anonymous Pro", monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.cardholder {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.card-img {
+  margin: 10px;
+}
+
+.cardlist {
+  list-style-type: circle;
+}
+
+.edu {
+  padding: 10px;
+  text-align: center;
+}
+
+.res_button {
+  height: 30px;
+}
+
+.p_hero {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.my_picture {
+  border-radius: 25%;
+  padding: 20px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+}
+
+.description p {
+  border-color: black;
+  border: 2px;
+}
+
+.tan {
+  border-radius: 5px;
+}
+
+.projects {
+  margin: 30px;
+}
